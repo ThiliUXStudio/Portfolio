@@ -156,6 +156,46 @@
       padding: 2rem 1rem;
       margin-top: 2rem;
     }
+
+    /* Styling for Education & Experience Sections */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.info-card {
+  background: white;
+  border-left: 4px solid #00bfa6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.info-card h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  color: #111;
+}
+
+.role {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.role span {
+  float: right;
+  color: #999;
+  font-weight: normal;
+}
   </style>
 </head>
 <body>
@@ -169,6 +209,8 @@
     <a href="#about">About</a>
     <a href="#portfolio">Portfolio</a>
     <a href="#contact">Contact</a>
+    <a href="#education">Contact</a>
+    <a href="#experience">Contact</a>
     <a href="detail.html">Detail</a>
   </nav>
 
@@ -195,37 +237,44 @@
     </div>
   </section>
 
-   <!-- Education Section -->
-   <section id="education">
-    <h2>Education</h2>
-    <div class="about-text">
-      <p><strong>Master of Science in Web Science</strong><br>
-      University of Cologne, Germany<br>
-      2020 – 2023</p>
-
-      <p><strong>UX Design Bootcamp</strong><br>
-      CareerFoundry Institute, Berlin<br>
-      2022 – 2023</p>
-
-      <p><strong>Bachelor of Design in Fashion Design</strong><br>
-      University of Moratuwa, Sri Lanka<br>
-      2012 – 2016</p>
+ <!-- Education Section -->
+<section id="education">
+  <h2>Education</h2>
+  <div class="info-grid">
+    <div class="info-card">
+      <h3>University of Cologne, Germany</h3>
+      <p class="role">M.Sc. in Web Science <span>2020 – 2023</span></p>
+      <p>Focused on modern web technologies, data science, and design thinking methodologies.</p>
     </div>
-  </section>
+    <div class="info-card">
+      <h3>CareerFoundry Institute, Berlin</h3>
+      <p class="role">UX Design Bootcamp <span>2022 – 2023</span></p>
+      <p>Hands-on learning in UX research, wireframing, prototyping, and usability testing.</p>
+    </div>
+    <div class="info-card">
+      <h3>University of Moratuwa, Sri Lanka</h3>
+      <p class="role">B.Des. in Fashion Design <span>2012 – 2016</span></p>
+      <p>Creative studies in fashion design, visual aesthetics, and branding principles.</p>
+    </div>
+  </div>
+</section>
 
   <!-- Work Experience Section -->
-  <section id="experience">
-    <h2>Work Experience</h2>
-    <div class="about-text">
-      <p><strong>UX/UI Designer (Freelance)</strong><br>
-      Remote · 2023 – Present<br>
-      Collaborated with startups and small businesses to design responsive web and mobile interfaces. Conducted user research and usability testing to iterate on design solutions.</p>
-
-      <p><strong>Apparel Designer</strong><br>
-      Leading Apparel Manufacturer, Sri Lanka · 2016 – 2019<br>
-      Led fashion concept development, design execution, and trend analysis. Delivered creative presentations and product samples for global clients.</p>
+<section id="experience">
+  <h2>Work Experience</h2>
+  <div class="info-grid">
+    <div class="info-card">
+      <h3>Freelance UX/UI Designer</h3>
+      <p class="role">Remote <span>2023 – Present</span></p>
+      <p>Collaborated with global clients to create user-centered interfaces, conducted user research, and delivered responsive designs.</p>
     </div>
-  </section>
+    <div class="info-card">
+      <h3>Apparel Designer</h3>
+      <p class="role">Leading Apparel Firm, Sri Lanka <span>2016 – 2019</span></p>
+      <p>Managed trend-based fashion collections, created concept boards, and delivered presentations to international clients.</p>
+    </div>
+  </div>
+</section>
 
   <section id="portfolio">
     <h2>My Work</h2>
