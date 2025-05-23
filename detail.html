@@ -3,13 +3,164 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Me</title>
+  <title>Thili UX Studio - Portfolio - My Work</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background: #222;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #00bfa6;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .project-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card img {
+      width: 100%;
+      display: block;
+    }
+
+    .project-card .desc {
+      padding: 1rem;
+    }
+
+    .project-card h3 {
+      margin: 0 0 0.5rem;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>About Me</h1>
-  <p>This is the second page with more information.</p>
 
-  <!-- Link back to the home page -->
-  <a href="index.html">Back to Home</a>
+  <header>
+    <h1>Thilini Vidana Gamage</h1>
+    <p>UX/UI Designer — Creating meaningful experiences</p>
+  </header>
+
+  <nav>
+    <a href="#portfolio">My Work</a>
+  </nav>
+
+  <section id="portfolio">
+    <h2>My Work</h2>
+    <div class="portfolio-grid">
+      <div class="project-card">
+        <img src="https://cdn.prod.website-files.com/653b65fb832bb4be589d25c6/65425c700427ff775344fad4_Use%20case%20Image%2023-p-1080.png" alt="Mobile App Wireframing" />
+        <div class="desc">
+          <h3>Mobile App Wireframing</h3>
+          <p>Sketching mobile app prototypes to visualize user flows and interfaces.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://cdn.prod.website-files.com/653b65fb832bb4be589d25c6/661fe7621e0a3874bbc3e136_Tattoo%20Payment%20Application_16-p-1080.jpg" alt="Modern Office Workspace" />
+        <div class="desc">
+          <h3>Modern Office Workspace</h3>
+          <p>Designing in a creative and tech-equipped environment to enhance productivity.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://cdn.prod.website-files.com/653b65fb832bb4be589d25c6/662561cfbcbfd3f34439196e_Composite%20(11)-p-1080.jpg" alt="Team Brainstorming Session" />
+        <div class="desc">
+          <h3>Team Brainstorming Session</h3>
+          <p>Collaborative ideation sessions to drive innovative UX/UI solutions.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://cdn.prod.website-files.com/653b65fb832bb4be589d25c6/6615a1a8e7c9baf5e89cc5aa_case-study-prototype.png" alt="UX Case Study" />
+        <div class="desc">
+          <h3>UX Case Study</h3>
+          <p>End-to-end project featuring research, user flows, wireframes, and usability testing.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://cdn.prod.website-files.com/653b65fb832bb4be589d25c6/6619e3e2a3fdcbdc55ae0bbd_design-systems-thumbnail.png" alt="Design Systems" />
+        <div class="desc">
+          <h3>Design Systems</h3>
+          <p>Created scalable component libraries and style guides for consistent UX.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://cdn.prod.website-files.com/653b65fb832bb4be589d25c6/661a4013d134a71b4d4be92b_mobile-responsive-design.png" alt="Mobile Responsive Design" />
+        <div class="desc">
+          <h3>Responsive Website Design</h3>
+          <p>Developed responsive web interfaces for seamless experience across devices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ThiliUXStudio. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
+
