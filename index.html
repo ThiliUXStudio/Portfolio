@@ -209,27 +209,43 @@
 
 .nav-container {
   max-width: 1200px;  /* Match your section max-width */
-  margin: 0 auto;     /* Center it horizontally */
-  /*display: flex;
-  /*justify-content: right;*/
+  /*margin: 0 auto;     /* Center it horizontally */
+  display: flex;
+  justify-content: right;
   gap: 2rem;
 }
 
 .header-container {
-  max-width: 1200px;  /* Match your section max-width */
-  margin: 0 auto;     /* Center it horizontally */
-  /*display: flex;
-  /*justify-content: left;*/
-  gap: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: justify;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
+
+.header-text {
+  flex: 1;
+}
+
+
+.logo-img {
+  width: 80px;       /* Adjust size as needed */
+  height: auto;
+  object-fit: contain;
+}
+
   </style>
 </head>
 <body>
 
   <header>
     <div class="header-container">
-    <h1>Thilini Vidana Gamage</h1>
-    <p>UX/UI Designer — Creating meaningful experiences</p>
+      <div class="header-text">
+        <h1>Thilini Vidana Gamage</h1>
+        <p>UX/UI Designer — Creating meaningful experiences</p>
+      </div>
+      <img src="images/thili_logo.png" alt="Logo" class="logo-img" />
     </div>
   </header>
 
