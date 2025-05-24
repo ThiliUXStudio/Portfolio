@@ -207,9 +207,15 @@
   filter: brightness(0) invert(1); /* Makes dark icons white */
 }
 
-.nav-content {
-  max-width: 1200px;
+.nav-container {
+  max-width: 1200px;  /* Match your section max-width */
+  margin: 0 auto;     /* Center it horizontally */
+  display: flex;
+  justify-content: right;
+  gap: 2rem;
 }
+
+
   </style>
 </head>
 <body>
@@ -222,18 +228,18 @@
   </header>
 
   <nav>
-    <!--<div class="nav-content"> -->
-    <a href="#about">About</a>
-    <a href="detail.html">Portfolio</a>
-    <a href="#education">Education</a>
-    <a href="#experience">Experience</a>
-    <a href="https://www.linkedin.com/in/thilini-thathsarani/">
-      <img src="icons/linkedin.svg" alt="Blog Icon" class="nav-icon" />
-    </a>
-    <a href="#contact">
-      <img src="icons/mail.svg" alt="Blog Icon" class="nav-icon" />
-    </a>
-    
+    <div class="nav-container">
+      <a href="#about">About</a>
+      <a href="detail.html">Portfolio</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="https://www.linkedin.com/in/thilini-thathsarani/">
+        <img src="icons/linkedin.svg" alt="Blog Icon" class="nav-icon" />
+      </a>
+      <a href="#contact">
+        <img src="icons/mail.svg" alt="Blog Icon" class="nav-icon" />
+      </a>
+    </div>
   </nav>
 
     
