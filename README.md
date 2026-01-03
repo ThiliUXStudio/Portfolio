@@ -69,4 +69,5 @@ Information Hierarchy: By using border-left: 4px solid #e4800d on my info-cards,
 Color Consistency: I used a consistent brand color (#e4800d) for buttons, links, and accents to build a cohesive brand identity.
 
 Conclusion
+
 This project demonstrates that I can take complex design concepts—like those learned at the University of Cologne and CareerFoundry—and translate them into a high-performance website. I have effectively combined HTML5 structure, CSS3 styling, and JavaScript logic to create a live, responsive portfolio that represents my unique journey as a designer.
