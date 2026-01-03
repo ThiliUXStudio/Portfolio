@@ -5,6 +5,9 @@ Portfolio Development: A Technical Retrospective
 Author: Thilini Vidana Gamage  
 Project Scope: Front-End Development (HTML, CSS, JavaScript)
 
+https://thiliuxstudio.github.io/Portfolio/index.html
+
+
 <img width="693" height="889" alt="image" src="https://github.com/user-attachments/assets/5d8069aa-0273-492f-988b-f67f1883362f" />
 
 
