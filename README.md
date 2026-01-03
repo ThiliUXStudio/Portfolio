@@ -6,6 +6,9 @@ Portfolio Development: A Technical Retrospective
 Author: Thilini Vidana Gamage  
 Project Scope: Front-End Development (HTML, CSS, JavaScript)
 
+<img width="693" height="889" alt="image" src="https://github.com/user-attachments/assets/5d8069aa-0273-492f-988b-f67f1883362f" />
+
+
 In this portfolio, I have synthesized the technical skills acquired through my Coursera training to build a high-performance, responsive web application. My objective was to demonstrate a mastery of the "Front-End Trifecta"—Structure, Style, and Logic—while ensuring a seamless user experience.
 
 1. Semantic Architecture (HTML5)
