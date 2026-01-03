@@ -2,6 +2,7 @@
 UX_UI_Portfolio
 
 Portfolio Development: A Technical Retrospective
+
 Author: Thilini Vidana Gamage  
 Project Scope: Front-End Development (HTML, CSS, JavaScript)
 
@@ -14,22 +15,7 @@ Sectional Logic: I used <header>, <main>, and <footer> to define the page layout
 
 Accessibility: I ensured all images contain descriptive alt text and that my navigation links are nested within a <nav> element, adhering to modern web standards.
 
-Actual Implementation Snippet:
-
-HTML
-
-<section id="about" class="about-section">
-    <div class="container">
-        <h2>About Me</h2>
-        <div class="about-flex">
-            <img src="assets/profile.jpg" alt="Developer Profile Portrait">
-            <article class="description">
-                <p>I am a developer passionate about clean code and user-centric design...</p>
-            </article>
-        </div>
-    </div>
-</section>
-
+Actual Implementation Snippet: HTML
 <img width="687" height="263" alt="image" src="https://github.com/user-attachments/assets/55f51a43-fde0-4488-909a-127091142761" />
 
 
@@ -43,24 +29,11 @@ Variables and Scalability: I used CSS Variables (:root) to define a consistent c
 
 Responsive Media Queries: I wrote specific breakpoints to ensure that the multi-column desktop layout collapses into a readable single-column view on mobile devices.
 
-Actual Implementation Snippet:
+Actual Implementation Snippet: CSS
 
-CSS
+<img width="666" height="318" alt="image" src="https://github.com/user-attachments/assets/a2d0e359-668a-46a4-a496-15359663f698" />
 
-/* Implementing a responsive flex container for the About section */
-.about-flex {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
 
-/* Mobile Breakpoint */
-@media (max-width: 768px) {
-    .about-flex {
-        flex-direction: column;
-        text-align: center;
-    }
-}
 3. Client-Side Interactivity (JavaScript)
 The interactivity of my portfolio is powered by Vanilla JavaScript. I focused on enhancing the user experience through DOM manipulation and event handling without the need for heavy external libraries.
 
@@ -70,22 +43,11 @@ Smooth Scroll Logic: To improve navigation, I wrote a function that captures cli
 
 Dynamic UI Elements: I developed a toggle script for a mobile "hamburger" menu, allowing for a clean interface on small screens.
 
-Actual Implementation Snippet:
+Actual Implementation Snippet: JavaScript
 
-JavaScript
+<img width="667" height="261" alt="image" src="https://github.com/user-attachments/assets/4a3ba832-4cb0-4603-9a76-c7d30b9bbad2" />
 
-// Smooth Scrolling for Navigation
-const navLinks = document.querySelectorAll('.nav-menu a');
 
-navLinks.forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        const targetId = this.getAttribute('href');
-        document.querySelector(targetId).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
 4. Deployment and Version Control
 Finally, I managed the entire development lifecycle using Git. By hosting the site on GitHub Pages, I demonstrated my ability to use version control to track changes, manage branches, and deploy a live product. This workflow mirrors that of a professional development environment.
 
