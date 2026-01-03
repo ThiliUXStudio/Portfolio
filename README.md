@@ -16,6 +16,7 @@ Sectional Logic: I used <header>, <main>, and <footer> to define the page layout
 Accessibility: I ensured all images contain descriptive alt text and that my navigation links are nested within a <nav> element, adhering to modern web standards.
 
 Actual Implementation Snippet: HTML
+
 <img width="687" height="263" alt="image" src="https://github.com/user-attachments/assets/55f51a43-fde0-4488-909a-127091142761" />
 
 
